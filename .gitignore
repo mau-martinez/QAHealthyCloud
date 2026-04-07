@@ -1,0 +1,5 @@
+node_modules/
+playwright-report/
+*.png
+*.zip
+.DS_Store
