@@ -26,9 +26,13 @@ module.exports = defineConfig({
       name: 'chromium',
       use: { browserName: 'chromium' },
     },
-    {
-      name: 'firefox',
-      use: { browserName: 'firefox' },
-    },
+    /* Firefox is disabled for now. 
+     {
+       name: 'firefox',
+     use: { browserName: 'firefox' },
+     },  
+    */
+
+
   ],
 });
